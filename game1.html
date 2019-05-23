@@ -48,8 +48,9 @@
 </div>
 
 <script type="text/javascript">
-	var game = new Phaser.Game(288,505,Phaser.Auto,'game'); //create a phaser game set width and height and others as defent.
+	
 function new_mg() {
+	var game = new Phaser.Game(288,505,Phaser.Auto,'game');//create a phaser game set width and height and others as defent.
 	var w = parseInt(document.getElementById("mg_width").value) || 20,
 		h = parseInt(document.getElementById("mg_height").value) || 20;
 	mg.set({width: w, height: h}).create().show();
